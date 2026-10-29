@@ -1,3 +1,51 @@
 body {
-    background-image: url(lisa album.png)background-repeat: no-repeat ;
+margin: 0;
+padding : 0;
+font-family:Arial, sans-serif;
+}
+
+.banner{
+    position: relative;
+    width:100vw;
+    height:100vh;
+    background-image: url("lisaalbum.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.logo{
+    position:absolute;
+    top: 25px;
+    left: 25px;
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: normal;
+    letter-spacing: 15px;
+}
+
+.menu {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+}
+.menu ul {
+list-style-type: none;
+display: flex;
+gap: 70px;
+margin: 0;
+padding: 0;
+}
+.menu a {
+    text-decoration: none;
+    color: darkred;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: opacity 0.2s ease;
 }
