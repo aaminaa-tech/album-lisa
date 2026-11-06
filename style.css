@@ -1,6 +1,7 @@
 body {
 margin: 0;
 padding : 0;
+cursor: url("logostarlisa.png") 16 16, auto;
 }
 
 .logo{
@@ -120,6 +121,9 @@ padding : 0;
 .bouton:hover{
     background-color: darkred;
 }
+
+
+
 
 
  
